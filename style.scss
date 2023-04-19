@@ -1,0 +1,72 @@
+
+body{
+  background: #00000030;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 500px;
+border: 1px solid black;
+  padding: 30px;
+  border-radius: 30px;
+  background: white;
+}
+.toDo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px ;
+  &__top{
+
+    display: flex;
+    column-gap: 30px;
+  }
+  &__input{
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  &__add{
+    padding: 25px;
+    margin-bottom: 30px;
+    background: cornflowerblue;
+    border: none ;
+  }
+  &__card{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+  }
+  &__title{
+    width: 100px;
+  }
+  &__trash{
+    width: 16px;
+  }
+  &__trash-btn{
+    border: none;
+    background: white;
+  }
+  &__pencil{
+    width: 16px;
+  }
+  &__pencil-btn{
+    border: none;
+    background: white;
+
+  }
+  &__error{
+    color: red;
+
+  }
+}
+
+.chakeed__fill{
+  fill:#ffffff;
+}
+.chakeed__fill-active{
+  fill:#000;
+}

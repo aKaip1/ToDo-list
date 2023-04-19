@@ -1,0 +1,74 @@
+body {
+  background: rgba(0, 0, 0, 0.1882352941);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 30px;
+  background: white;
+}
+
+.toDo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px;
+}
+.toDo__top {
+  display: flex;
+  column-gap: 30px;
+}
+.toDo__input {
+  padding: 25px;
+  margin-bottom: 30px;
+}
+.toDo__add {
+  padding: 25px;
+  margin-bottom: 30px;
+  background: cornflowerblue;
+  border: none;
+}
+.toDo__card {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+.toDo__title {
+  width: 100px;
+}
+.toDo__trash {
+  width: 16px;
+}
+.toDo__trash-btn {
+  border: none;
+  background: white;
+}
+.toDo__pencil {
+  width: 16px;
+}
+.toDo__pencil-btn {
+  border: none;
+  background: white;
+}
+.toDo__error {
+  color: red;
+}
+
+.chakeed__fill {
+  fill: #ffffff;
+}
+
+.chakeed__fill-active {
+  fill: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
